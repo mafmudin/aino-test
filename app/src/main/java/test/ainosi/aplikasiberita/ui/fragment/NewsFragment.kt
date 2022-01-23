@@ -49,8 +49,16 @@ class NewsFragment(viewModel: NewsViewModel? = null)
             layoutManager = GridLayoutManager(context, gridCount)
         }
 
-        viewModel.internetCheck(requireContext())
-        observeData()
+        newsAdapter.onClick = {news ->
+            findNavController().navigate(NewsFragmentDirections.actionNewsDetail(
+                news.url!!
+            ))
+        }
+
+        binding.rlNews.setOnRefreshListener {
+            viewModel.internetCheck(requireContext())
+            viewModel.getNewsTry("1")
+        }
     }
 
     private fun observeData(){
