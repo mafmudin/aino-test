@@ -1,29 +1,20 @@
-package test.ainosi.aplikasiberita.repository
+package test.ainosi.aplikasiberita.data
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.liveData
-import com.google.gson.Gson
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Deferred
 import kotlinx.coroutines.async
-import kotlinx.coroutines.withContext
 import test.ainosi.aplikasiberita.BuildConfig
 import test.ainosi.aplikasiberita.base.BaseRepository
-import test.ainosi.aplikasiberita.data.NetworkBoundResource
-import test.ainosi.aplikasiberita.data.Resource
 import test.ainosi.aplikasiberita.data.local.NewsDao
-import test.ainosi.aplikasiberita.data.remote.ApiResponse
 import test.ainosi.aplikasiberita.data.remote.ApiService
-import test.ainosi.aplikasiberita.model.newslist.News
 import test.ainosi.aplikasiberita.model.newslist.NewsListResponse
 import test.ainosi.aplikasiberita.model.searchnews.Response
 import test.ainosi.aplikasiberita.model.searchnews.SearchNewsResponse
+import test.ainosi.aplikasiberita.repository.NewsRepository
 import test.ainosi.aplikasiberita.utility.ContextProviders
-import timber.log.Timber
-import java.lang.Exception
 import javax.inject.Inject
 
-class NewsRepositoryImpl @Inject constructor(
+class FakeRepositoryImpl @Inject constructor(
     private val contextProviders: ContextProviders,
     private val newsDao: NewsDao,
     private val apiService: ApiService

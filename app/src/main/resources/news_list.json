@@ -1,0 +1,1166 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2022 The New York Times Company.  All Rights Reserved.",
+  "num_results": 20,
+  "results": [
+    {
+      "uri": "nyt://article/6f45b821-a697-523e-829e-66556e55bf63",
+      "url": "https://www.nytimes.com/2021/12/21/well/live/omicron-variant-symptoms-covid.html",
+      "id": 100000008129516,
+      "asset_id": 100000008129516,
+      "source": "New York Times",
+      "published_date": "2021-12-21",
+      "updated": "2022-01-03 18:19:36",
+      "section": "Well",
+      "subsection": "Live",
+      "nytdsection": "well",
+      "adx_keywords": "Coronavirus Omicron Variant;Coronavirus Delta Variant;Coronavirus (2019-nCoV);Disease Rates;Tests (Medical)",
+      "column": null,
+      "byline": "By Melinda Wenner Moyer",
+      "type": "Article",
+      "title": "What Are the Symptoms of Omicron?",
+      "abstract": "While there are subtle differences between the latest coronavirus strain and previous ones, so far the signs of infection look pretty similar.",
+      "des_facet": [
+        "Coronavirus Omicron Variant",
+        "Coronavirus Delta Variant",
+        "Coronavirus (2019-nCoV)",
+        "Disease Rates",
+        "Tests (Medical)"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Jon Han",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2021/12/20/well/00well-omicron-symptoms/00well-omicron-symptoms-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/12/20/well/00well-omicron-symptoms/00well-omicron-symptoms-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/12/20/well/00well-omicron-symptoms/00well-omicron-symptoms-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/88a11aee-de77-51fd-97cb-adc9eaddb7f2",
+      "url": "https://www.nytimes.com/2022/01/07/world/europe/grichka-and-igor-bogdanoff-dead.html",
+      "id": 100000008147502,
+      "asset_id": 100000008147502,
+      "source": "New York Times",
+      "published_date": "2022-01-07",
+      "updated": "2022-01-17 12:23:14",
+      "section": "World",
+      "subsection": "Europe",
+      "nytdsection": "world",
+      "adx_keywords": "Deaths (Obituaries);Hoaxes and Pranks;Science and Technology;Plastic Surgery;Television;Coronavirus (2019-nCoV);Bogdanoff, Igor (1949-2022);Bogdanoff, Grichka (1949-2021);France",
+      "column": null,
+      "byline": "By Clay Risen",
+      "type": "Article",
+      "title": "Grichka and Igor Bogdanoff, Twins in an Uneasy Spotlight, Die at 72",
+      "abstract": "In France they were science-loving TV celebrities (molded by plastic surgery) whose own research was suspect, maybe a hoax. They died within days of each other.",
+      "des_facet": [
+        "Deaths (Obituaries)",
+        "Hoaxes and Pranks",
+        "Science and Technology",
+        "Plastic Surgery",
+        "Television",
+        "Coronavirus (2019-nCoV)"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Bogdanoff, Igor (1949-2022)",
+        "Bogdanoff, Grichka (1949-2021)"
+      ],
+      "geo_facet": [
+        "France"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Igor, left, and Grichka Bogdanoff in 2006. They found fame through television stardom, questionable scientific research, extreme plastic surgery and a high-society lifestyle.",
+          "copyright": "Louise Oligny/Gamma-Rapho via Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/01/11/obituaries/07Bogdanoff1-print1/07Bogdanoff1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/01/11/obituaries/07Bogdanoff1-print1/07Bogdanoff1-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/01/11/obituaries/07Bogdanoff1-print1/07Bogdanoff1-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/960bacd2-8e63-5abc-9fbc-d124e34bb00c",
+      "url": "https://www.nytimes.com/2022/01/09/arts/television/bob-saget-dead.html",
+      "id": 100000008152525,
+      "asset_id": 100000008152525,
+      "source": "New York Times",
+      "published_date": "2022-01-09",
+      "updated": "2022-01-12 14:12:41",
+      "section": "Arts",
+      "subsection": "Television",
+      "nytdsection": "arts",
+      "adx_keywords": "Deaths (Obituaries);Comedy and Humor;Television;Actors and Actresses;Saget, Bob",
+      "column": null,
+      "byline": "By Jesus Jiménez and Alan Yuhas",
+      "type": "Article",
+      "title": "Bob Saget, Comic Who Starred in the Sitcom ‘Full House,’ Dies at 65",
+      "abstract": "The actor, who had also hosted “America’s Funniest Home Videos,” was found dead in an Orlando hotel room while on tour.",
+      "des_facet": [
+        "Deaths (Obituaries)",
+        "Comedy and Humor",
+        "Television",
+        "Actors and Actresses"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Saget, Bob"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Bob Saget in 2008. In contrast to his squeaky-clean image on “Full House” and “America’s Funniest Home Videos,” he delighted in raunchy, profanity-laden stand-up routines.",
+          "copyright": "Dan Steinberg/R-STEINBERG, via Associated Press",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/01/11/multimedia/09xp-saget-swap-print3/09xp-saget-swap-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/01/11/multimedia/09xp-saget-swap-print3/09xp-saget-swap-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/01/11/multimedia/09xp-saget-swap-print3/09xp-saget-swap-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/79808d50-9271-5eee-abde-4f125c172853",
+      "url": "https://www.nytimes.com/2021/12/31/arts/television/betty-white-dead.html",
+      "id": 100000006684002,
+      "asset_id": 100000006684002,
+      "source": "New York Times",
+      "published_date": "2021-12-31",
+      "updated": "2022-01-01 08:38:06",
+      "section": "Arts",
+      "subsection": "Television",
+      "nytdsection": "arts",
+      "adx_keywords": "Deaths (Obituaries);Actors and Actresses;Television;White, Betty",
+      "column": null,
+      "byline": "By Richard Severo and Peter Keepnews",
+      "type": "Article",
+      "title": "Betty White, a Television Golden Girl From the Start, Is Dead at 99",
+      "abstract": "Among the many highlights of a career that began in 1949 were star turns on “The Mary Tyler Moore Show” in the 1970s and “Saturday Night Live” in 2010.",
+      "des_facet": [
+        "Deaths (Obituaries)",
+        "Actors and Actresses",
+        "Television"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "White, Betty"
+      ],
+      "geo_facet": [],
+      "media": [],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/68bcb4cb-e078-5403-8c42-514fc8f106d0",
+      "url": "https://www.nytimes.com/article/at-home-covid-tests-accuracy.html",
+      "id": 100000007999604,
+      "asset_id": 100000007999604,
+      "source": "New York Times",
+      "published_date": "2021-09-29",
+      "updated": "2022-01-03 11:39:33",
+      "section": "Health",
+      "subsection": "",
+      "nytdsection": "health",
+      "adx_keywords": "Tests (Medical);Disease Rates;Coronavirus (2019-nCoV);Content Type: Service;Coronavirus Reopenings;your-feed-healthcare",
+      "column": null,
+      "byline": "By Emily Anthes",
+      "type": "Article",
+      "title": "How Accurate Are At-Home Covid Tests? Here’s a Quick Guide",
+      "abstract": "When used correctly, many rapid antigen tests are good at detecting people carrying high levels of the virus.",
+      "des_facet": [
+        "Tests (Medical)",
+        "Disease Rates",
+        "Coronavirus (2019-nCoV)",
+        "Content Type: Service",
+        "Coronavirus Reopenings",
+        "your-feed-healthcare"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Rapid at-home Covid test kits being handed out in Chelsea, Mass., on Dec. 17.",
+          "copyright": "Joseph Prezioso/Agence France-Presse — Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2021/12/29/science/29sci-virus-testing-new/29sci-virus-testing-new-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/12/29/science/29sci-virus-testing-new/29sci-virus-testing-new-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/12/29/science/29sci-virus-testing-new/29sci-virus-testing-new-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/d7c9656c-244b-51a0-aa96-53bb6485f3ea",
+      "url": "https://www.nytimes.com/2022/01/03/technology/wordle-word-game-creator.html",
+      "id": 100000008143465,
+      "asset_id": 100000008143465,
+      "source": "New York Times",
+      "published_date": "2022-01-03",
+      "updated": "2022-01-20 08:03:52",
+      "section": "Technology",
+      "subsection": "",
+      "nytdsection": "technology",
+      "adx_keywords": "Computer and Video Games;Spelling;Crossword Puzzles;Wardle, Josh;Reddit Inc",
+      "column": null,
+      "byline": "By Daniel Victor",
+      "type": "Article",
+      "title": "Wordle Is a Love Story",
+      "abstract": "The word game has gone from dozens of players to hundreds of thousands in a few months. It was created by a software engineer in Brooklyn for his partner.",
+      "des_facet": [
+        "Computer and Video Games",
+        "Spelling",
+        "Crossword Puzzles"
+      ],
+      "org_facet": [
+        "Reddit Inc"
+      ],
+      "per_facet": [
+        "Wardle, Josh"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/01/06/multimedia/03xp-wordle/03xp-wordle-thumbStandard.png",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/01/06/multimedia/03xp-wordle/03xp-wordle-mediumThreeByTwo210.png",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/01/06/multimedia/03xp-wordle/03xp-wordle-mediumThreeByTwo440.png",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/d4cc9075-f608-574f-80bc-0ce8a99c8c14",
+      "url": "https://www.nytimes.com/article/testing-positive-covid-omicron-variant.html",
+      "id": 100000008123900,
+      "asset_id": 100000008123900,
+      "source": "New York Times",
+      "published_date": "2021-12-18",
+      "updated": "2022-01-05 18:12:57",
+      "section": "Well",
+      "subsection": "Live",
+      "nytdsection": "well",
+      "adx_keywords": "Coronavirus Omicron Variant;Coronavirus (2019-nCoV);Tests (Medical);Antibodies;Quarantines;Contact Tracing (Public Health);Content Type: Service;internal-essential;Coronavirus Risks and Safety Concerns",
+      "column": null,
+      "byline": "By Dani Blum and Nicole Stock",
+      "type": "Article",
+      "title": "You Tested Positive for Covid. Now What?",
+      "abstract": "The Omicron variant has fueled a rise in Covid-19 cases across the United States. Here’s what you need to know if you get infected.",
+      "des_facet": [
+        "Coronavirus Omicron Variant",
+        "Coronavirus (2019-nCoV)",
+        "Tests (Medical)",
+        "Antibodies",
+        "Quarantines",
+        "Contact Tracing (Public Health)",
+        "Content Type: Service",
+        "internal-essential",
+        "Coronavirus Risks and Safety Concerns"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A positive result from a Covid-19 rapid antigen test.",
+          "copyright": "Octavio Jones/Reuters",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2021/12/17/well/17well-virus-positive2/17well-virus-positive2-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/12/17/well/17well-virus-positive2/17well-virus-positive2-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/12/17/well/17well-virus-positive2/17well-virus-positive2-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/0550ff4d-d77d-54bf-b6c1-9c55b5c7c40e",
+      "url": "https://www.nytimes.com/2022/01/06/opinion/omicron-covid-us.html",
+      "id": 100000008144154,
+      "asset_id": 100000008144154,
+      "source": "New York Times",
+      "published_date": "2022-01-06",
+      "updated": "2022-01-13 13:30:07",
+      "section": "Opinion",
+      "subsection": "",
+      "nytdsection": "opinion",
+      "adx_keywords": "Coronavirus Omicron Variant;Disease Rates;United States",
+      "column": null,
+      "byline": "By Jeffrey Shaman",
+      "type": "Article",
+      "title": "Here’s When We Expect Omicron to Peak",
+      "abstract": "An epidemic modeler explains why cases of the variant will peak in the U.S. in January.",
+      "des_facet": [
+        "Coronavirus Omicron Variant",
+        "Disease Rates"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "United States"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/01/05/us/-promo-1641416869158/-promo-1641416869158-thumbStandard.png",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/01/05/us/-promo-1641416869158/-promo-1641416869158-mediumThreeByTwo210.png",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/01/05/us/-promo-1641416869158/-promo-1641416869158-mediumThreeByTwo440.png",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/ea6213a7-ccfa-51e1-9b11-c5a25c76b469",
+      "url": "https://www.nytimes.com/2022/01/11/well/mind/melatonin-sleep-insomnia.html",
+      "id": 100000008077241,
+      "asset_id": 100000008077241,
+      "source": "New York Times",
+      "published_date": "2022-01-11",
+      "updated": "2022-01-18 00:01:37",
+      "section": "Well",
+      "subsection": "Mind",
+      "nytdsection": "well",
+      "adx_keywords": "Quarantine (Life and Culture);Sleep;Content Type: Service;Melatonin (Hormone);Dreams;Insomnia;Psychology and Psychologists;Anxiety and Stress;Sedatives;Drugs (Pharmaceuticals);Jet Lag",
+      "column": null,
+      "byline": "By Amelia Nierenberg",
+      "type": "Article",
+      "title": "Melatonin Isn’t a Sleeping Pill. Here’s How to Use It.",
+      "abstract": "The “vampire hormone” can act like a dose of sunset, tricking your body into feeling like it’s time to sleep.",
+      "des_facet": [
+        "Quarantine (Life and Culture)",
+        "Sleep",
+        "Content Type: Service",
+        "Melatonin (Hormone)",
+        "Dreams",
+        "Insomnia",
+        "Psychology and Psychologists",
+        "Anxiety and Stress",
+        "Sedatives",
+        "Drugs (Pharmaceuticals)",
+        "Jet Lag"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Dadu Shin",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/01/18/well/21Well-Melatonin/21Well-Melatonin-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/01/18/well/21Well-Melatonin/21Well-Melatonin-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/01/18/well/21Well-Melatonin/21Well-Melatonin-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/2ff562c3-5739-585d-9ad3-faef214d742d",
+      "url": "https://www.nytimes.com/article/covid-masks.html",
+      "id": 100000008157965,
+      "asset_id": 100000008157965,
+      "source": "New York Times",
+      "published_date": "2022-01-14",
+      "updated": "2022-01-17 15:22:32",
+      "section": "Well",
+      "subsection": "Live",
+      "nytdsection": "well",
+      "adx_keywords": "Masks;Content Type: Service;Coronavirus (2019-nCoV);Coronavirus Omicron Variant;Shopping and Retail;Counterfeit Merchandise",
+      "column": null,
+      "byline": "By Tara Parker-Pope",
+      "type": "Article",
+      "title": "How to Find a Quality Mask (and Avoid Counterfeits)",
+      "abstract": "Knowing which mask to pick and making sure it’s not a fake requires the sleuthing skills of a forensic investigator. Our guide can help.",
+      "des_facet": [
+        "Masks",
+        "Content Type: Service",
+        "Coronavirus (2019-nCoV)",
+        "Coronavirus Omicron Variant",
+        "Shopping and Retail",
+        "Counterfeit Merchandise"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Charlie Rubin for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/02/13/well/13well-n95mask-guide1/13well-n95mask-guide1-thumbStandard-v2.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/02/13/well/13well-n95mask-guide1/13well-n95mask-guide1-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/02/13/well/13well-n95mask-guide1/13well-n95mask-guide1-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/8d8cc31e-a9cb-5cea-959c-1e4eca98c64e",
+      "url": "https://www.nytimes.com/2022/01/21/arts/music/meat-loaf-dead-marvin-lee-aday.html",
+      "id": 100000008169352,
+      "asset_id": 100000008169352,
+      "source": "New York Times",
+      "published_date": "2022-01-21",
+      "updated": "2022-01-22 14:27:08",
+      "section": "Arts",
+      "subsection": "Music",
+      "nytdsection": "arts",
+      "adx_keywords": "Deaths (Obituaries);Pop and Rock Music;Theater;Movies;Actors and Actresses;Meat Loaf;Steinman, Jim",
+      "column": null,
+      "byline": "By Alex Marshall, Ben Sisario and Derrick Bryson Taylor",
+      "type": "Article",
+      "title": "Meat Loaf, ‘Bat Out of Hell’ Singer and Actor, Dies at 74",
+      "abstract": "Born Marvin Lee Aday, he sold millions of albums, won a Grammy and acted in films including “The Rocky Horror Picture Show” and “Fight Club.”",
+      "des_facet": [
+        "Deaths (Obituaries)",
+        "Pop and Rock Music",
+        "Theater",
+        "Movies",
+        "Actors and Actresses"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Meat Loaf",
+        "Steinman, Jim"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Meat Loaf’s album “Bat Out of Hell” went on to sell at least 14 million copies in the United States and generated songs that were radio staples — and barroom singalongs — for decades. ",
+          "copyright": "Keystone/Hulton Archive/Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/01/21/world/meat-loaf-05/meat-loaf-05-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/01/21/world/meat-loaf-05/meat-loaf-05-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/01/21/world/meat-loaf-05/meat-loaf-05-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/92fbdcb5-4cc0-565c-a059-9f4e1fc521ff",
+      "url": "https://www.nytimes.com/2022/01/02/technology/marjorie-taylor-greene-twitter.html",
+      "id": 100000008142750,
+      "asset_id": 100000008142750,
+      "source": "New York Times",
+      "published_date": "2022-01-02",
+      "updated": "2022-01-03 09:53:27",
+      "section": "Technology",
+      "subsection": "",
+      "nytdsection": "technology",
+      "adx_keywords": "Social Media;Coronavirus (2019-nCoV);Censorship;Vaccination and Immunization;Rumors and Misinformation;United States Politics and Government;Greene, Marjorie Taylor (1974- );Twitter;House of Representatives;Georgia",
+      "column": null,
+      "byline": "By Davey Alba",
+      "type": "Article",
+      "title": "Twitter Permanently Suspends Marjorie Taylor Greene’s Account",
+      "abstract": "The social media service said the Republican congresswoman had violated its policy on coronavirus misinformation.",
+      "des_facet": [
+        "Social Media",
+        "Coronavirus (2019-nCoV)",
+        "Censorship",
+        "Vaccination and Immunization",
+        "Rumors and Misinformation",
+        "United States Politics and Government"
+      ],
+      "org_facet": [
+        "Twitter",
+        "House of Representatives"
+      ],
+      "per_facet": [
+        "Greene, Marjorie Taylor (1974- )"
+      ],
+      "geo_facet": [
+        "Georgia"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Representative Marjorie Taylor Greene, of Georgia, at an event last month with another Republican, Representative Matt Gaetz of Florida.",
+          "copyright": "T.J. Kirkpatrick for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/01/02/multimedia/02twitter-greene-1/02twitter-greene-1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/01/02/multimedia/02twitter-greene-1/02twitter-greene-1-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/01/02/multimedia/02twitter-greene-1/02twitter-greene-1-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/17bd1f59-e994-548e-a07a-6d1fa5b92b0e",
+      "url": "https://www.nytimes.com/article/tests-covid-omicron-pcr-rapid.html",
+      "id": 100000008133387,
+      "asset_id": 100000008133387,
+      "source": "New York Times",
+      "published_date": "2021-12-23",
+      "updated": "2021-12-29 08:56:34",
+      "section": "Well",
+      "subsection": "Live",
+      "nytdsection": "well",
+      "adx_keywords": "Tests (Medical);Coronavirus Risks and Safety Concerns;Content Type: Service;Laboratories and Scientific Equipment;Coronavirus Omicron Variant;Coronavirus (2019-nCoV);Quarantines;Vaccination and Immunization;Medicine and Health;Spitting (Expectoration);Proteins;Parties (Social)",
+      "column": null,
+      "byline": "By Tara Parker-Pope, Dani Blum and Nicole Stock",
+      "type": "Article",
+      "title": "Which Covid Test Should I Get? When Should I Test? What If I Can’t Find One? Answers About Testing and Omicron.",
+      "abstract": "Facing long lines and shortages of home test kits during the latest surge, people are searching for answers about Covid tests.",
+      "des_facet": [
+        "Tests (Medical)",
+        "Coronavirus Risks and Safety Concerns",
+        "Content Type: Service",
+        "Laboratories and Scientific Equipment",
+        "Coronavirus Omicron Variant",
+        "Coronavirus (2019-nCoV)",
+        "Quarantines",
+        "Vaccination and Immunization",
+        "Medicine and Health",
+        "Spitting (Expectoration)",
+        "Proteins",
+        "Parties (Social)"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Danielle St. Laurent for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2021/12/22/well/22well-virustesting/22well-virustesting-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/12/22/well/22well-virustesting/22well-virustesting-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/12/22/well/22well-virustesting/22well-virustesting-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/32a4cf21-5bcf-53de-a0a8-40562d84992c",
+      "url": "https://www.nytimes.com/2021/12/31/health/covid-omicron-lung-cells.html",
+      "id": 100000008129002,
+      "asset_id": 100000008129002,
+      "source": "New York Times",
+      "published_date": "2021-12-31",
+      "updated": "2022-01-03 14:07:01",
+      "section": "Health",
+      "subsection": "",
+      "nytdsection": "health",
+      "adx_keywords": "Coronavirus Omicron Variant;Coronavirus Delta Variant;Research;Lungs;Immune System;Disease Rates;your-feed-science",
+      "column": null,
+      "byline": "By Carl Zimmer and Azeen Ghorayshi",
+      "type": "Article",
+      "title": "Studies Suggest Why Omicron Is Less Severe: It Spares the Lungs",
+      "abstract": "Compared with earlier variants, Omicron may cause less damage to the lungs, new animal research suggests.",
+      "des_facet": [
+        "Coronavirus Omicron Variant",
+        "Coronavirus Delta Variant",
+        "Research",
+        "Lungs",
+        "Immune System",
+        "Disease Rates",
+        "your-feed-science"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Many research groups studying Omicron in animals have found that, compared with other variants, it causes much less damage to the lungs.",
+          "copyright": "Jerome Delay/Associated Press",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2021/12/30/science/00-omicron-biology1/00-omicron-biology1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/12/30/science/00-omicron-biology1/00-omicron-biology1-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/12/30/science/00-omicron-biology1/00-omicron-biology1-mediumThreeByTwo440-v2.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/9b5ce161-0850-5592-918d-c25496a08afe",
+      "url": "https://www.nytimes.com/2022/01/10/health/heart-transplant-pig-bennett.html",
+      "id": 100000008152930,
+      "asset_id": 100000008152930,
+      "source": "New York Times",
+      "published_date": "2022-01-10",
+      "updated": "2022-01-11 10:49:44",
+      "section": "Health",
+      "subsection": "",
+      "nytdsection": "health",
+      "adx_keywords": "Transplants;Heart;Pigs;Kidneys;Genetic Engineering;Cloning;your-feed-science;University of Maryland Medical Center",
+      "column": null,
+      "byline": "By Roni Caryn Rabin",
+      "type": "Article",
+      "title": "In a First, Man Receives a Heart From a Genetically Altered Pig",
+      "abstract": "The breakthrough may lead one day to new supplies of animal organs for transplant into human patients.",
+      "des_facet": [
+        "Transplants",
+        "Heart",
+        "Pigs",
+        "Kidneys",
+        "Genetic Engineering",
+        "Cloning",
+        "your-feed-science"
+      ],
+      "org_facet": [
+        "University of Maryland Medical Center"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/a2769d0e-91d3-5820-b84d-413c3ec1e43b",
+      "url": "https://www.nytimes.com/2022/01/02/sports/hockey/canucks-cancer-manager-fan.html",
+      "id": 100000008142743,
+      "asset_id": 100000008142743,
+      "source": "New York Times",
+      "published_date": "2022-01-02",
+      "updated": "2022-01-04 15:49:58",
+      "section": "Sports",
+      "subsection": "Hockey",
+      "nytdsection": "sports",
+      "adx_keywords": "Hockey, Ice;Cancer;Melanomas;Neck;National Hockey League;Seattle Kraken;Vancouver Canucks;Seattle (Wash)",
+      "column": null,
+      "byline": "By Eduardo Medina",
+      "type": "Article",
+      "title": "Hockey Fan Spots Cancerous Mole at Game and Delivers a Lifesaving Note",
+      "abstract": "Nadia Popovici wrote a message on her phone, with “mole,” “cancer” and “doctor” in bright-red type to get the attention of Brian Hamilton, an assistant equipment manager for the Vancouver Canucks.",
+      "des_facet": [
+        "Hockey, Ice",
+        "Cancer",
+        "Melanomas",
+        "Neck"
+      ],
+      "org_facet": [
+        "National Hockey League",
+        "Seattle Kraken",
+        "Vancouver Canucks"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "Seattle (Wash)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Nadia Popovici, left, and Brian Hamilton, the assistant equipment manager for the Vancouver Canucks. Ms. Popovici alerted him during an October game about a cancerous mole he had.",
+          "copyright": "Christopher Mast/NHLI, via Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/01/04/multimedia/02xp-canucks-print/02xp-canucks-thumbStandard-v2.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/01/04/multimedia/02xp-canucks-print/02xp-canucks-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/01/04/multimedia/02xp-canucks-print/02xp-canucks-mediumThreeByTwo440-v2.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/3f5582aa-f227-5c65-a7a0-c7720a69d8ca",
+      "url": "https://www.nytimes.com/2022/01/05/sports/tennis/novak-djokovic-australia-visa.html",
+      "id": 100000008146569,
+      "asset_id": 100000008146569,
+      "source": "New York Times",
+      "published_date": "2022-01-05",
+      "updated": "2022-01-15 18:51:44",
+      "section": "Sports",
+      "subsection": "Tennis",
+      "nytdsection": "sports",
+      "adx_keywords": "Tennis;Australian Open (Tennis);Visas;Politics and Government;Coronavirus (2019-nCoV);Vaccination and Immunization;Djokovic, Novak;Australia",
+      "column": null,
+      "byline": "By Matthew Futterman",
+      "type": "Article",
+      "title": "Novak Djokovic Is Refused Entry Into Australia Over Vaccine Exemption",
+      "abstract": "The No. 1 men’s tennis player was told to leave the country after a 10-hour standoff at a Melbourne airport. He remained in the country as he waited out a legal appeal.",
+      "des_facet": [
+        "Tennis",
+        "Australian Open (Tennis)",
+        "Visas",
+        "Politics and Government",
+        "Coronavirus (2019-nCoV)",
+        "Vaccination and Immunization"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Djokovic, Novak"
+      ],
+      "geo_facet": [
+        "Australia"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Novak Djokovic after winning last year's Australian Open. He had received a medical exemption to play this year.",
+          "copyright": "David Gray/Agence France-Presse — Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/01/06/multimedia/06djokovic-changenew/06djokovic-changenew-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/01/06/multimedia/06djokovic-changenew/06djokovic-changenew-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/01/06/multimedia/06djokovic-changenew/06djokovic-changenew-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/3d152b52-3644-5717-be25-b38a81b26369",
+      "url": "https://www.nytimes.com/2022/01/19/well/exercise-timing.html",
+      "id": 100000008164369,
+      "asset_id": 100000008164369,
+      "source": "New York Times",
+      "published_date": "2022-01-19",
+      "updated": "2022-01-20 09:21:14",
+      "section": "Well",
+      "subsection": "",
+      "nytdsection": "well",
+      "adx_keywords": "Exercise;Biorhythms;Diabetes;Weight;Muscles;Cell Metabolism (Journal)",
+      "column": null,
+      "byline": "By Gretchen Reynolds",
+      "type": "Article",
+      "title": "Is It Better to Exercise in the Morning or Evening?",
+      "abstract": "Working out at different times of the day might have unique benefits for health, an ambitious new study in mice suggests.",
+      "des_facet": [
+        "Exercise",
+        "Biorhythms",
+        "Diabetes",
+        "Weight",
+        "Muscles"
+      ],
+      "org_facet": [
+        "Cell Metabolism (Journal)"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Victor Moriyama for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/01/19/well/19sci-physed-morn-2/19sci-physed-morn-2-thumbStandard-v2.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/01/19/well/19sci-physed-morn-2/19sci-physed-morn-2-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/01/19/well/19sci-physed-morn-2/19sci-physed-morn-2-mediumThreeByTwo440-v2.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/3b6a56da-6deb-5b02-817f-4074b116a4b8",
+      "url": "https://www.nytimes.com/2021/12/23/books/joan-didion-dead.html",
+      "id": 100000006697447,
+      "asset_id": 100000006697447,
+      "source": "New York Times",
+      "published_date": "2021-12-23",
+      "updated": "2021-12-25 17:01:11",
+      "section": "Books",
+      "subsection": "",
+      "nytdsection": "books",
+      "adx_keywords": "Deaths (Obituaries);Writing and Writers;Books and Literature;Didion, Joan;Dunne, John Gregory;California",
+      "column": null,
+      "byline": "By William Grimes",
+      "type": "Article",
+      "title": "Joan Didion, ‘New Journalist’ Who Explored Culture and Chaos, Dies at 87",
+      "abstract": "She established a distinctive voice in American fiction before turning to political reporting and screenplay writing. But it was California, her native state, that provided her with her richest material.",
+      "des_facet": [
+        "Deaths (Obituaries)",
+        "Writing and Writers",
+        "Books and Literature"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Didion, Joan",
+        "Dunne, John Gregory"
+      ],
+      "geo_facet": [
+        "California"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Joan Didion in 1972. “Her talent was for writing about the mood of the culture,” the writer Katie Roiphe said. “She managed to channel the spirit of the 1960s and ’70s through her own highly idiosyncratic and personal — that is, seemingly personal — writing.”",
+          "copyright": "Henry Clarke/Cond&eacute; Nast, via Shutterstock",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2020/10/27/obituaries/00Didion1/00Didion1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2020/10/27/obituaries/00Didion1/00Didion1-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2020/10/27/obituaries/00Didion1/00Didion1-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/6fb618a6-e1ac-5aca-8cbd-933881383af8",
+      "url": "https://www.nytimes.com/2021/12/24/style/marriage-heather-havrilesky-foreverland.html",
+      "id": 100000008119328,
+      "asset_id": 100000008119328,
+      "source": "New York Times",
+      "published_date": "2021-12-24",
+      "updated": "2021-12-24 20:34:45",
+      "section": "Style",
+      "subsection": "",
+      "nytdsection": "style",
+      "adx_keywords": "Marriages",
+      "column": null,
+      "byline": "By Heather Havrilesky",
+      "type": "Article",
+      "title": "Marriage Requires Amnesia",
+      "abstract": "Do I hate my husband? Oh for sure, yes, definitely.",
+      "des_facet": [
+        "Marriages"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Jake Terrell",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2021/12/26/fashion/00Havrilesky-Excerpt/00Havrilesky-Excerpt-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/12/26/fashion/00Havrilesky-Excerpt/00Havrilesky-Excerpt-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/12/26/fashion/00Havrilesky-Excerpt/00Havrilesky-Excerpt-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    }
+  ]
+}

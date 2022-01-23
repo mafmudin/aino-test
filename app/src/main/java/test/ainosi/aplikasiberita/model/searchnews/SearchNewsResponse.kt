@@ -2,12 +2,9 @@ package test.ainosi.aplikasiberita.model.searchnews
 
 
 import com.google.gson.annotations.SerializedName
+import test.ainosi.aplikasiberita.base.BaseResponse
 
-data class SearchNewsResponse(
-    @SerializedName("copyright")
-    var copyright: String?,
+class SearchNewsResponse: BaseResponse(){
     @SerializedName("response")
-    var response: Response?,
-    @SerializedName("status")
-    var status: String?
-)
+    var response: Response? = null
+}
