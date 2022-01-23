@@ -4,7 +4,7 @@ package test.ainosi.aplikasiberita.model.searchnews
 import com.google.gson.annotations.SerializedName
 import test.ainosi.aplikasiberita.base.BaseResponse
 
-class Response:BaseResponse(){
+data class Response(
     @SerializedName("docs")
-    var docs: MutableList<Doc> = arrayListOf()
-}
+    var docs: MutableList<Doc>
+)

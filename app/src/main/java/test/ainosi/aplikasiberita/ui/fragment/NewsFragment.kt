@@ -136,7 +136,7 @@ class NewsFragment(viewModel: NewsViewModel? = null)
                 EnumStatus.SUCCESS->{
                     binding.rlNews.isRefreshing = false
                     progressSvg.dissmis()
-                    newsAdapter.updateItem(it.data!!)
+                    newsAdapter.updateItem(it.data!!.news)
                 }
                 EnumStatus.ERROR->{
                     Toast.makeText(context, it.message, Toast.LENGTH_SHORT).show()
@@ -154,9 +154,9 @@ class NewsFragment(viewModel: NewsViewModel? = null)
                 EnumStatus.SUCCESS->{
                     progressSvg.dissmis()
                     if (isloadMore){
-                        articleAdapter.addAllItem(it.data!!)
+                        articleAdapter.addAllItem(it.data!!.response!!.docs)
                     }else{
-                        articleAdapter.updateItem(it.data!!)
+                        articleAdapter.updateItem(it.data!!.response!!.docs)
                     }
                 }
                 EnumStatus.ERROR->{

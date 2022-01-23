@@ -9,6 +9,7 @@ import test.ainosi.aplikasiberita.data.Resource
 import test.ainosi.aplikasiberita.model.newslist.News
 import test.ainosi.aplikasiberita.model.newslist.NewsListResponse
 import test.ainosi.aplikasiberita.model.searchnews.Doc
+import test.ainosi.aplikasiberita.model.searchnews.SearchNewsResponse
 import test.ainosi.aplikasiberita.repository.NewsRepository
 import test.ainosi.aplikasiberita.utility.Utility
 import test.ainosi.aplikasiberita.utility.livedata.AbsentLiveData
@@ -21,8 +22,8 @@ class NewsViewModel @Inject constructor(
 ):ViewModel() {
     private var isInternet = MutableLiveData(false)
 
-    private val _result = MutableLiveData<Resource<MutableList<News>>>()
-    val result: LiveData<Resource<MutableList<News>>> = _result
+    private val _result = MutableLiveData<Resource<NewsListResponse>>()
+    val result: LiveData<Resource<NewsListResponse>> = _result
 
     fun internetCheck(context: Context){
         this.isInternet.value = Utility.isInternetAvailable(context)
@@ -35,7 +36,7 @@ class NewsViewModel @Inject constructor(
             val response = newsRepository.getDailyNews(day).await()
             Timber.e("RESPONSE %s", Gson().toJson(response))
             if (response.responseStatus == "1"){
-                _result.postValue(Resource.success(response.news))
+                _result.postValue(Resource.success(response))
             }else{
                 _result.postValue(Resource.error(null, response.message))
             }
@@ -44,8 +45,8 @@ class NewsViewModel @Inject constructor(
         }
     }
 
-    private val _resultSearch = MutableLiveData<Resource<MutableList<Doc>>>()
-    val resultSearch: LiveData<Resource<MutableList<Doc>>> = _resultSearch
+    private val _resultSearch = MutableLiveData<Resource<SearchNewsResponse>>()
+    val resultSearch: LiveData<Resource<SearchNewsResponse>> = _resultSearch
 
     fun searchNews(query:String, page:Int) = viewModelScope.launch {
         _resultSearch.postValue(Resource.loading(null))
@@ -54,7 +55,7 @@ class NewsViewModel @Inject constructor(
             val response = newsRepository.searchNews(query, page).await()
             Timber.e("RESPONSE %s", Gson().toJson(response))
             if (response.responseStatus == "1"){
-                _resultSearch.postValue(Resource.success(response.docs))
+                _resultSearch.postValue(Resource.success(response))
             }else{
                 _resultSearch.postValue(Resource.error(null, response.message))
             }
