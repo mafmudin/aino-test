@@ -3,6 +3,8 @@ package test.ainosi.aplikasiberita.ui
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentFactory
 import test.ainosi.aplikasiberita.repository.NewsRepository
+import test.ainosi.aplikasiberita.ui.fragment.NewsDetailFragment
+import test.ainosi.aplikasiberita.ui.fragment.NewsFragment
 import test.ainosi.aplikasiberita.viewmodel.NewsViewModel
 import javax.inject.Inject
 

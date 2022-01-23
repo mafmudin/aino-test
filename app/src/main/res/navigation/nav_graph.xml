@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/newsFragment"
-        android:name="test.ainosi.aplikasiberita.ui.NewsFragment"
+        android:name="test.ainosi.aplikasiberita.ui.fragment.NewsFragment"
         android:label="News Fragment">
 
         <action android:id="@+id/action_news_detail"
@@ -15,7 +15,7 @@
     </fragment>
 
     <fragment android:id="@+id/newsDetailFragment"
-        android:name="test.ainosi.aplikasiberita.ui.NewsDetailFragment"
+        android:name="test.ainosi.aplikasiberita.ui.fragment.NewsDetailFragment"
         android:label="News Detail Fragment">
 
         <argument

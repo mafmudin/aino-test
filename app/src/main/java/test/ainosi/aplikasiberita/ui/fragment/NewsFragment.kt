@@ -1,11 +1,11 @@
-package test.ainosi.aplikasiberita.ui
+package test.ainosi.aplikasiberita.ui.fragment
 
-import android.content.res.Configuration
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
+import android.widget.Toast
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
+import com.google.gson.Gson
 import dagger.hilt.android.AndroidEntryPoint
 import test.ainosi.aplikasiberita.R
 import test.ainosi.aplikasiberita.base.BaseFragment
@@ -31,6 +31,11 @@ class NewsFragment(viewModel: NewsViewModel? = null)
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         initView()
+
+        viewModel.internetCheck(requireContext())
+        viewModel.getNewsTry("1")
+
+        observeData()
     }
 
 
@@ -62,13 +67,16 @@ class NewsFragment(viewModel: NewsViewModel? = null)
     }
 
     private fun observeData(){
-        viewModel.getNewsTry("1").observe(viewLifecycleOwner, {
+        viewModel.result.observe(viewLifecycleOwner, {
             when(it.status){
                 EnumStatus.SUCCESS->{
+                    binding.rlNews.isRefreshing = false
                     progressSvg.dissmis()
-                    newsAdapter.items = it.data!!
+                    newsAdapter.updateItem(it.data!!)
                 }
                 EnumStatus.ERROR->{
+                    Toast.makeText(context, it.message, Toast.LENGTH_SHORT).show()
+                    binding.rlNews.isRefreshing = false
                     progressSvg.dissmis()
                 }
                 EnumStatus.LOADING->{

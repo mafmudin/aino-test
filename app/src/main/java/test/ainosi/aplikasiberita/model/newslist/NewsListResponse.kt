@@ -6,5 +6,5 @@ import test.ainosi.aplikasiberita.base.BaseResponse
 
 class NewsListResponse: BaseResponse(){
     @SerializedName("results")
-    lateinit var news: List<News>
+    var news: MutableList<News> = arrayListOf()
 }

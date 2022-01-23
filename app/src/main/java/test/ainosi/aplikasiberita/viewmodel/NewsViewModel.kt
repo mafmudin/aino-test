@@ -2,6 +2,7 @@ package test.ainosi.aplikasiberita.viewmodel
 
 import android.content.Context
 import androidx.lifecycle.*
+import com.google.gson.Gson
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import test.ainosi.aplikasiberita.data.Resource
@@ -19,15 +20,26 @@ class NewsViewModel @Inject constructor(
 ):ViewModel() {
     private var isInternet = MutableLiveData(false)
 
+    private val _result = MutableLiveData<Resource<MutableList<News>>>()
+    val result: LiveData<Resource<MutableList<News>>> = _result
+
     fun internetCheck(context: Context){
         this.isInternet.value = Utility.isInternetAvailable(context)
     }
 
-    fun getNewsTry(day:String): LiveData<Resource<MutableList<News>>> = Transformations.switchMap(isInternet){
-        if (!it){
-            AbsentLiveData.create()
-        }else{
-            newsRepository.getDailyNews(day)
+    fun getNewsTry(day:String) = viewModelScope.launch {
+        _result.postValue(Resource.loading(null))
+
+        try {
+            val response = newsRepository.getDailyNews(day).await()
+            Timber.e("RESPONSE %s", Gson().toJson(response))
+            if (response.responseStatus == "1"){
+                _result.postValue(Resource.success(response.news))
+            }else{
+                _result.postValue(Resource.error(null, response.message))
+            }
+        }catch (e: Exception){
+            _result.postValue(Resource.error(null, e.message.toString()))
         }
     }
 }

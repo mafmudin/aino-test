@@ -13,4 +13,12 @@ interface ApiService {
         @Path("path") day:String,
         @Query("api-key") apiKey:String
     ): Call<NewsListResponse>
+
+    @GET("/articlesearch.json")
+    fun searchNews(
+        @Path("path") day:String,
+        @Query("api-key") apiKey:String,
+        @Query("q") query:String,
+        @Query("page") page:String
+    ): Call<NewsListResponse>
 }
