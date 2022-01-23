@@ -12,8 +12,10 @@
         android:name=".base.BaseApplication"
         android:theme="@style/Theme.AplikasiBerita">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".ui.MainActivity"
+            android:exported="true"
+            android:configChanges="orientation"
+            android:theme="@style/FullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

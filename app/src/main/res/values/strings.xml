@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AplikasiBerita</string>
+    <string name="sedang_memuat">Sedang Memuat</string>
+    <string name="cari_berita">Cari Berita</string>
 </resources>
