@@ -21,4 +21,8 @@ object DatabaseModule {
         .fallbackToDestructiveMigration()
         .allowMainThreadQueries()
         .build()
+
+    @Singleton
+    @Provides
+    fun provideNewsDao(appDatabase: AppDatabase) = appDatabase.newsDao()
 }

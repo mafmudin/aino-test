@@ -2,9 +2,12 @@ package test.ainosi.aplikasiberita.base
 
 import android.util.Log
 import com.google.gson.Gson
+import org.json.JSONObject
 import retrofit2.Call
 import retrofit2.HttpException
+import retrofit2.Response
 import test.ainosi.aplikasiberita.BuildConfig
+import timber.log.Timber
 
 abstract class BaseRepository {
     companion object {
@@ -33,6 +36,19 @@ abstract class BaseRepository {
                     }
                 throw e
             }
+        }
+
+        fun Response<*>.getError(): Throwable {
+            val errorBody = errorBody()?.string() ?: ""
+            Timber.e("ERROR BODY %s", errorBody)
+            return Throwable(
+                try {
+                    val json = JSONObject(errorBody)
+                    json.getString("message")
+                } catch (e: Exception) {
+                    errorBody
+                }
+            )
         }
     }
 }
