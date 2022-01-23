@@ -16,6 +16,8 @@ import test.ainosi.aplikasiberita.data.remote.ApiResponse
 import test.ainosi.aplikasiberita.data.remote.ApiService
 import test.ainosi.aplikasiberita.model.newslist.News
 import test.ainosi.aplikasiberita.model.newslist.NewsListResponse
+import test.ainosi.aplikasiberita.model.searchnews.Response
+import test.ainosi.aplikasiberita.model.searchnews.SearchNewsResponse
 import test.ainosi.aplikasiberita.utility.ContextProviders
 import timber.log.Timber
 import java.lang.Exception
@@ -42,6 +44,30 @@ class NewsRepositoryImpl @Inject constructor(
                 }
             }catch (e: Exception){
                 response = NewsListResponse()
+                response.responseStatus = "-1"
+                response.message = e.message.toString()
+            }
+
+            response
+        }
+    }
+
+    override fun searchNews(query:String, page:Int): Deferred<Response>{
+        return CoroutineScope(contextProviders.IO).async {
+            lateinit var response: Response
+            try {
+                response = Response()
+                val resp = apiService.searchNews(BuildConfig.API_KEY, query, page).execute()
+                val result = resp.body()
+                if (resp.isSuccessful && result != null){
+                    response.responseStatus = "1"
+                    response.docs.addAll(result.response!!.docs)
+                }else{
+                    response.responseStatus = "-1"
+                    response.message = resp.errorBody().toString()
+                }
+            }catch (e: Exception){
+                response = Response()
                 response.responseStatus = "-1"
                 response.message = e.message.toString()
             }

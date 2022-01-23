@@ -5,6 +5,7 @@ import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
 import test.ainosi.aplikasiberita.model.newslist.NewsListResponse
+import test.ainosi.aplikasiberita.model.searchnews.SearchNewsResponse
 
 
 interface ApiService {
@@ -14,11 +15,10 @@ interface ApiService {
         @Query("api-key") apiKey:String
     ): Call<NewsListResponse>
 
-    @GET("/articlesearch.json")
+    @GET("search/v2/articlesearch.json")
     fun searchNews(
-        @Path("path") day:String,
         @Query("api-key") apiKey:String,
         @Query("q") query:String,
-        @Query("page") page:String
-    ): Call<NewsListResponse>
+        @Query("page") page:Int
+    ): Call<SearchNewsResponse>
 }
